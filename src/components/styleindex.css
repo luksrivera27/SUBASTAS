@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background: blue;
+}
+.logo{
+    margin-left: 5px;
+}
+.btnR{
+    margin-right: 10px;
+}
+.Vendido{
+    color: #fff; font-style: italic; font-weight: 300; font-family: 'Dancing Script', cursive; 
+}
+.columna{
+    background: rgb(228, 228, 228);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color: #333;
+    border: none;
+    box-shadow: 10px 10px 10px #888;
+    box-sizing: border-box;
+}
+/* .columna{
+    margin-right: 10px;
+} */
+.negrita{
+    font-weight: 700;
+}
+.fechaI{
+    text-align: center;
+
+}
+.fechaF{
+    text-align: center;
+}
+.pujar{
+    margin-bottom: 15px;
+}
