@@ -12,7 +12,7 @@ export function Navegacion() {
                     <a class="negrita navbar-brand" href={""}>Contactanos</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                        <a class="negrita nav-link active" aria-current="page" href={""}>Sobre Nosotros</a>
+                        <a class="negrita navbar-brand active" aria-current="page" href={""}>Sobre Nosotros</a>
                         </li>
                     </ul>
                     </div>

@@ -4,6 +4,7 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Lato', sans-serif;
 }
+/* HEADER */
 .header{
     background: blue;
 }
@@ -16,19 +17,12 @@
 .Vendido{
     color: #fff; font-style: italic; font-weight: 300; font-family: 'Dancing Script', cursive; 
 }
-.columna{
-    background: rgb(228, 228, 228);
-    margin-top: 20px;
-    margin-bottom: 20px;
 
-    color: #333;
-    border: none;
-    box-shadow: 10px 10px 10px #888;
-    box-sizing: border-box;
+/* SECTION */
+.card{
+    width: 18rem;
 }
-/* .columna{
-    margin-right: 10px;
-} */
+
 .negrita{
     font-weight: 700;
 }
@@ -38,7 +32,4 @@
 }
 .fechaF{
     text-align: center;
-}
-.pujar{
-    margin-bottom: 15px;
 }

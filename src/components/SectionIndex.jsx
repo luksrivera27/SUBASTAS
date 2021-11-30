@@ -3,79 +3,96 @@ import Fosil from './Fosil.png'
 import './styleindex.css'
 export function SectionIndex() {
     return (
-        <div class="padre container flex">
-            <div class="row">
-                <div class="columna col-xxl-3 col-md-4 col-sm-6  border">
-                    <img src={Fosil} class="img-fluid" alt="..." />
-                    <p class="negrita nombreFosil">Nombre del fosil</p>
-                    <br></br>
-                    <p class="negrita mI">Monto inicial</p>
-                    <p class="negrita propietario">Propietario</p>
-                    <br></br>
-                    <p class="negrita descripcion">Descripcion</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aliquam cumque minima nesciunt exercitationem quam consequatur, ea cupiditate sint eos, perferendis alias deserunt. Quae possimus, nesciunt assumenda molestias quia nulla?</p>
-                    <br></br>
-                    <p class="negrita fechaI">Fecha de comienzo</p>
-                    <p class="negrita fechaF">Fecha de finalizacion</p>
-                    <hr></hr>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <a class="pujar btn btn-primary" href={""} >Pujar</a>
+
+        <div className="Padre container">
+            <div className="row">
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src={Fosil} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="negrita card-title">Nombre del fosil</h5>
+                            <br></br>
+                            <p class="negrita mI">Monto inicial: "$500.000"</p>
+                            <p class="negrita propietario">"Jose Lopez"</p>
+                            <hr></hr>
+                            <p class="negrita descripcion">Descripcion</p>
+                            <p class="card-text">"Some quick example text to build on the Nombre and make up the bulk of the card's content."</p>
+                            <p class="negrita fechaI">Fecha de comienzo: "11/11/2021"</p>
+                            <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
+                            <hr></hr>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a href="#" class="btn btn-primary ">Pujar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src={Fosil} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class=" negrita card-title">Nombre del fosil</h5>
+                            <br></br>
+                            <p class="negrita mI">Monto inicial: "$500.000"</p>
+                            <p class="negrita propietario">"Jose Lopez"</p>
+                            <hr></hr>
+                            <p class="negrita descripcion">Descripcion</p>
+                            <p class="card-text">"Some quick example text to build on the Nombre and make up the bulk of the card's content."</p>
+                            <p class="negrita fechaI">Fecha de comienzo: "11/11/2021"</p>
+                            <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
+                            <hr></hr>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a href="#" class="btn btn-primary ">Pujar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="columna col-xxl-3  col-md-4 col-sm-6  border">
-                    <img src={Fosil} class="img-fluid" alt="..." />
-                    <p class="negrita nombreFosil">Nombre del fosil</p>
-                    <br></br>
-                    <p class="negrita mI">Monto inicial</p>
-                    <p class="negrita propietario">Propietario</p>
-                    <br></br>
-                    <p class="negrita descripcion">Descripcion</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aliquam cumque minima nesciunt exercitationem quam consequatur, ea cupiditate sint eos, perferendis alias deserunt. Quae possimus, nesciunt assumenda molestias quia nulla?</p>
-                    <br></br>
-                    <p class="negrita fechaI">Fecha de comienzo</p>
-                    <p class="negrita fechaF">Fecha de finalizacion</p>
-                    <hr></hr>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <a class="pujar btn btn-primary" href={""} >Pujar</a>
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src={Fosil} class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="negrita card-title">Nombre del fosil</h5>
+                            <br></br>
+                            <p class="negrita mI">Monto inicial: "$500.000"</p>
+                            <p class="negrita propietario">"Jose Lopez"</p>
+                            <hr></hr>
+                            <p class="negrita descripcion">Descripcion</p>
+                            <p class="card-text">"Some quick example text to build on the Nombre and make up the bulk of the card's content."</p>
+                            <p class="negrita fechaI">Fecha de comienzo: "11/11/2021"</p>
+                            <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
+                            <hr></hr>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a href="#" class="btn btn-primary ">Pujar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="columna col-xxl-3  col-md-4 col-sm-6   border">
-                    <img src={Fosil} class="img-fluid" alt="..." />
-                    <p class="negrita nombreFosil">Nombre del fosil</p>
-                    <br></br>
-                    <p class="negrita mI">Monto inicial</p>
-                    <p class="negrita propietario">Propietario</p>
-                    <br></br>
-                    <p class="negrita descripcion">Descripcion</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aliquam cumque minima nesciunt exercitationem quam consequatur, ea cupiditate sint eos, perferendis alias deserunt. Quae possimus, nesciunt assumenda molestias quia nulla?</p>
-                    <br></br>
-                    <p class="negrita fechaI">Fecha de comienzo</p>
-                    <p class="negrita fechaF">Fecha de finalizacion</p>
-                    <hr></hr>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <a class="pujar btn btn-primary" href={""} >Pujar</a>
-                    </div>
-                </div>
-                <div class="columna col-xxl-3  col-md-4 col-sm-6   border">
-                    <img src={Fosil} class="img-fluid" alt="..." />
-                    <p class="negrita nombreFosil">Nombre del fosil</p>
-                    <br></br>
-                    <p class="negrita mI">Monto inicial</p>
-                    <p class="negrita propietario">Propietario</p>
-                    <br></br>
-                    <p class="negrita descripcion">Descripcion</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum aliquam cumque minima nesciunt exercitationem quam consequatur, ea cupiditate sint eos, perferendis alias deserunt. Quae possimus, nesciunt assumenda molestias quia nulla?</p>
-                    <br></br>
-                    <p class="negrita fechaI">Fecha de comienzo</p>
-                    <p class="negrita fechaF">Fecha de finalizacion</p>
-                    <hr></hr>
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                    <a class="pujar btn btn-primary" href={""} >Pujar</a>
+                <div class="col">
+                    <div class="card mb-5">
+                        <img src={Fosil} class="card-img-top" alt="..." />
+                        <div class=" card-body">
+                            <h5 class=" negrita card-title">Nombre del fosil</h5>
+                            <br></br>
+                            <p class="negrita mI">Monto inicial: "$500.000"</p>
+                            <p class="negrita propietario">"Jose Lopez"</p>
+                            <hr></hr>
+                            <p class="negrita descripcion">Descripcion</p>
+                            <p class="card-text">"Some quick example text to build on the Nombre and make up the bulk of the card's content."</p>
+                            <p class="negrita fechaI">Fecha de comienzo: "11/11/2021"</p>
+                            <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
+                            <hr></hr>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a href="#" class="btn btn-primary ">Pujar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <hr></hr>
         </div>
+        
+        
+    
 
     )
 }
