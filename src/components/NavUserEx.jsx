@@ -1,10 +1,13 @@
 import React from 'react'
 import './styleindex.css'
-export function Navegacion() {
+export function NavUserEx() {
     return (
-        <div class="Navegacion">
-             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="NavUserEx">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
+                        <a class="negrita navbar-brand" href="#" id="navbarDropdownMenuLink" >
+                            Historial
+                        </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -17,6 +20,8 @@ export function Navegacion() {
                             <a class="nav navbar-brand negrita"  href="#">Sobre nosotros</a>
                             </li>
                         </ul>
+                        <a class="nav navbar-brand negrita " href="#">Perfil</a>
+                        <input type="submit" class="btn btn-outline nav navbar-brand negrita align-items-end" href={""} value="Cerrar sesión" />
                     </div>
                 </div>
                 </nav>

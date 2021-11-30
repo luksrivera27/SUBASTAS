@@ -1,7 +1,7 @@
 import React from 'react'
 import Fosil from './Fosil.png'
 import './styleindex.css'
-export function SectionIndex() {
+export function SectionAdmi() {
     return (
 
         <div className="Padre container">
@@ -21,7 +21,7 @@ export function SectionIndex() {
                             <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
                             <hr></hr>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <a href="#" class="btn btn-primary ">Pujar</a>
+                                <a href="#" class="btn btn-primary ">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ export function SectionIndex() {
                             <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
                             <hr></hr>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <a href="#" class="btn btn-primary ">Pujar</a>
+                                <a href="#" class="btn btn-primary ">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ export function SectionIndex() {
                             <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
                             <hr></hr>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <a href="#" class="btn btn-primary ">Pujar</a>
+                                <a href="#" class="btn btn-primary ">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ export function SectionIndex() {
                             <p class="negrita fechaF">Fecha de cierre: "15/11/2021" </p>
                             <hr></hr>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <a href="#" class="btn btn-primary ">Pujar</a>
+                                <a href="#" class="btn btn-primary ">Ver</a>
                             </div>
                         </div>
                     </div>
