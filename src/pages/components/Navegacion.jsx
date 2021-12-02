@@ -1,6 +1,6 @@
 import React from 'react'
 import './styleindex.css'
-export function Navegacion() {
+export default function Navegacion() {
     return (
         <div class="Navegacion">
              <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -11,10 +11,10 @@ export function Navegacion() {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                            <a class="nav navbar-brand negrita"  href="#">Contactanos</a>
+                            <a class="nav navbar-brand negrita"  href={"/Contactanos"}>Contactanos</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav navbar-brand negrita"  href="#">Sobre nosotros</a>
+                            <a class="nav navbar-brand negrita"  href={"/Sobrenosotros"}>Sobre nosotros</a>
                             </li>
                         </ul>
                     </div>

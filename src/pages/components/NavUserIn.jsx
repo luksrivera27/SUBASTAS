@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function NavUserIn() {
+export default function NavUserIn() {
     return (
         <div class="NavUserIn">
              <nav class="navbar navbar-expand-lg navbar-light bg-light">

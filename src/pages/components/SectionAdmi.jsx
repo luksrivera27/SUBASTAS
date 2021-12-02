@@ -1,7 +1,7 @@
 import React from 'react'
 import Fosil from './Fosil.png'
 import './styleindex.css'
-export function SectionAdmi() {
+export default function SectionAdmi() {
     return (
 
         <div className="Padre container">

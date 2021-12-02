@@ -1,7 +1,7 @@
 import React from 'react'
 import Fosil from './Fosil.png'
 import './styleindex.css'
-export function SectionIndex() {
+export default function SectionIndex() {
     return (
 
         <div className="Padre container">
