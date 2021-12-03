@@ -1,0 +1,51 @@
+.caja{
+    background: rgb(227, 227, 233);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 700px;
+    height:500px;
+
+}
+.subcaja{
+    background: rgb(44, 44, 236);
+    margin: 30px;
+    height:500px;
+}
+.caja2{
+    background: rgb(227, 227, 233);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 700px;
+    height:300px;
+
+}
+
+.subcaja2{
+    background: rgb(44, 44, 236);
+    margin: 80px;
+    margin-top: 100px;
+    height:300px;
+}
+
+.title{
+    color: rgb(227, 227, 233);
+    text-align:center;
+    padding:30px;
+
+}
+.texto{
+    color: rgb(227, 227, 233);
+    text-align:center;
+}
+.texto1{
+    color: rgb(227, 227, 233);
+    text-align:justify;
+    padding:30px;
+}
+.logo{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
