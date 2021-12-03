@@ -1,9 +1,16 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Headerfontpageuser from "./components/Headerfontpageuser";
+import NavHiUserAdmi from "./components/NavHiUserAdmi";
+import TablaUserAdmi from "./components/TablaUserAdmi";
 
 const Historialadminuser = () => {
   return (
     <div>
-      <h1>Este es Configurar Historialadminuser</h1>
+      <Headerfontpageuser />
+      <NavHiUserAdmi />
+      <TablaUserAdmi />
+      <Footer />
     </div>
   );
 }

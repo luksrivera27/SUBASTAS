@@ -24,7 +24,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
         
                     </tr>
@@ -35,7 +35,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
                     <tr>
@@ -45,7 +45,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
                     <tr>
@@ -55,7 +55,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
                     <tr>
@@ -65,7 +65,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
                     <tr>
@@ -75,7 +75,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
                     <tr>
@@ -85,7 +85,7 @@ export default function TablaSubasta() {
                     <td class ="subasta">Fosil: Rectiliano</td>
                     <td class ="fechainicio">11/12/2021</td>
                     <td class ="fechacierre">01/01/2022</td>
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/visualizacionsubasta"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
                     </tr>
     

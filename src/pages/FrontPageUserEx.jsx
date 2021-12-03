@@ -1,17 +1,17 @@
 import React from 'react'
 import Footer from './components/Footer';
-
 import Headerfontpageuser from './components/Headerfontpageuser';
 import NavUserEx from './components/NavUserEx';
-import SectionIndex from './components/SectionIndex';
-// import  Footer  from './components/Footer';
+import SectionEx from './components/SectionEx';
+
+
 
 const FrontPageUserEx =() =>{
     return (
         <div>
             <Headerfontpageuser />
             <NavUserEx />
-            <SectionIndex />
+            <SectionEx />
             <Footer />
         </div>
     );

@@ -11,14 +11,20 @@ import Login from "./pages/Login";
 import Pagoexitoso from "./pages/Pagoexitoso";
 import Contactanos from "./pages/Contactanos"; 
 import Sobrenosotros from "./pages/Sobrenosotros";
-import Reportes from "./pages/Reportes";
 import Puja from "./pages/Puja";
 import Perfil from "./pages/Perfil";
 import Historialadminuser from "./pages/Historialadminuser";
 import Historialusuarioexterno from "./pages/Historialusuarioexterno";
-import Configurarsubastas from "./pages/Configurarsubastas";
 import Visualizaciondesubasta from "./pages/Visualizaciondesubasta";
 import Recuperarcontrasena from "./pages/Recuperarcontrasena";
+import PerfilInterno from "./pages/PerfilUserI";
+import HiSubastasadmi from "./pages/HiSubastasadmi";
+import Perfiladmi from "./pages/PerfilUserAdmi";
+import VisualizaciondesubastaAdmi from "./pages/VisualizaciondesubastaAdmi";
+import Reportesex from "./pages/Reportesex";
+import ReportesAdmi from "./pages/ReportesAdmi";
+import ConfigurarsubastasAdmi from "./pages/Configurarsubastasadmi";
+import Configurarsubastasin from "./pages/Configurarsubastas";
 
 function App() {
   return (
@@ -58,18 +64,27 @@ function App() {
         <Routes>
             <Route path="/Sobrenosotros" element={<Sobrenosotros />} />
         </Routes>
-
+        {/* REportes */}
         <Routes>
-            <Route path="/Reportes" element={<Reportes />} />
+            <Route path="/Reportesex" element={<Reportesex />} />
+        </Routes>
+        <Routes>
+            <Route path="/ReportesAdmi" element={<ReportesAdmi />} />
         </Routes>
 
         <Routes>
             <Route path="/visualizacionsubasta" element={<Visualizaciondesubasta/>} />
         </Routes>
-
         <Routes>
-            <Route path="/configurarsubasta" element={<Configurarsubastas/>} />
+            <Route path="/VisualizaciondesubastaAdmi" element={<VisualizaciondesubastaAdmi />} />
         </Routes>
+        <Routes>
+            <Route path="/configurarsubastain" element={<Configurarsubastasin/>} />
+        </Routes>
+        <Routes>
+            <Route path="/configurarsubastaadmi" element={<ConfigurarsubastasAdmi />} />
+        </Routes>
+        
         <Routes>
             <Route path="/puja" element={<Puja/>} />
         </Routes>
@@ -85,8 +100,17 @@ function App() {
         <Routes>
             <Route path="/historialusuarioexterno" element={<Historialusuarioexterno/>} />
         </Routes>
+        <Routes>
+            <Route path="historialSubastaAdmi" element={<HiSubastasadmi/>} />
+        </Routes>
+        <Routes>
+            <Route path="/perfilInterno" element={<PerfilInterno/>} />
+        </Routes>
+        <Routes>
+            <Route path="/perfiladmi" element={<Perfiladmi/>} />
+        </Routes>
 
-
+        
       </div>
 
       

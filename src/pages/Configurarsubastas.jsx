@@ -1,11 +1,11 @@
 import React from "react";
 
-const Configurarsubastas = () => {
+const Configurarsubastasin = () => {
   return (
     <div>
-      <h1>Este es Configurar subastas</h1>
+      <h1>Este es Configurar subastasin</h1>
     </div>
   );
 }
 
-export default Configurarsubastas;
+export default Configurarsubastasin;

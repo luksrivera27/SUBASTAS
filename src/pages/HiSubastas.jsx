@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Headerfontpageuser from "./components/Headerfontpageuser";
-import NavHiSubasta from "./components/NavHiSubasta";
+import NavHiSubastaIn from "./components/NavHiSubasta";
 import TablaSubasta from "./components/TablaSubasta";
 
 const HiSubastas=() =>{
   return (
     <div> 
       <Headerfontpageuser />
-      <NavHiSubasta />
+      <NavHiSubastaIn />
       <TablaSubasta />
       <Footer />
     </div>

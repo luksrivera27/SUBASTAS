@@ -3,7 +3,7 @@ import React from "react";
 const Puja = () => {
   return (
     <div>
-      <h1>Este es Configurar Pujas</h1>
+      <h1>Este esPujas</h1>
     </div>
   );
 }

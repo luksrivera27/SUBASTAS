@@ -9,8 +9,8 @@ export default function NavUserIn() {
                             Historial
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Historial de subastas</a></li>
-                            <li><a class="dropdown-item" href="#">Generar reporte</a></li>
+                            <li><a class="dropdown-item" href={"/HiSubastas"}>Historial de subastas</a></li>
+                            <li><a class="dropdown-item" href={"/Reportesex"}>Generar reporte</a></li>
                         </ul>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -18,10 +18,10 @@ export default function NavUserIn() {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                            <a class="nav navbar-brand negrita"  href="#">Subir subasta</a>
+                            <a class="nav navbar-brand negrita"  href={"/configurarsubastain"}>Subir subasta</a>
                             </li>
                         </ul>
-                        <a class="nav navbar-brand negrita " href="#">Perfil</a>
+                        <a class="nav navbar-brand negrita " href={"/perfilInterno"}>Perfil</a>
                         <input type="submit" class="btn btn-outline nav navbar-brand negrita align-items-end" href={""} value="Cerrar sesión" />
                     </div>
                 </div>
