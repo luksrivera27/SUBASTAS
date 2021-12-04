@@ -5,7 +5,7 @@ export default function NavHiSubastaIn() {
         <div class="NavHiSubastaIn">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                        <a class="Hsubasta negrita navbar-brand" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Historial de subastas
+                        <a class="Hsubasta negrita navbar-brand" href={"/historialusuarioexterno"} id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Historial de subastas
                         </a>
                         <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href={"/Reportesex"}>Generar reporte</a></li>

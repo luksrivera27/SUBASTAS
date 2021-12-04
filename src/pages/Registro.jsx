@@ -1,9 +1,9 @@
 import React from "react";
-
+import Formregistro from './components/Formregistro';
 const Registro = () => {
   return (
     <div>
-      <h1>Este es Registro</h1>
+      <Formregistro />
     </div>
   );
 }
