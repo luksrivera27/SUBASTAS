@@ -25,6 +25,8 @@ import Reportesex from "./pages/Reportesex";
 import ReportesAdmi from "./pages/ReportesAdmi";
 import ConfigurarsubastasAdmi from "./pages/Configurarsubastasadmi";
 import Configurarsubastasin from "./pages/Configurarsubastas";
+import Reporte from "./pages/Reporte";
+
 
 function App() {
   return (
@@ -108,6 +110,15 @@ function App() {
         </Routes>
         <Routes>
             <Route path="/perfiladmi" element={<Perfiladmi/>} />
+        </Routes>
+        <Routes>
+            <Route path="/reporte" element={<Reporte/>} />
+        </Routes>
+        <Routes>
+            <Route path="/ReportesAdmi" element={<ReportesAdmi/>} />
+        </Routes>
+        <Routes>
+            <Route path="/Reportesex" element={<Reportesex/>} />
         </Routes>
 
         

@@ -1,9 +1,9 @@
 import React from "react";
-
+import FormReporteAdmin from './components/FormReporteAdmin';
 const ReportesAdmi = () => {
   return (
     <div>
-      <h1>Este es ReportesAdmi</h1>
+      <FormReporteAdmin />
     </div>
   );
 }
