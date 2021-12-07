@@ -12,7 +12,7 @@ const Pagoexitoso = () => {
       <Navtransaccion/>
       <div class="caja2 ">
         <div class="subcaja2">
-            <img class="logo" src={logocheck}/>
+            <img class="logo" alt="logo"src={logocheck}/>
             <h1 class="title">Transacción Exitosa</h1>
             
             

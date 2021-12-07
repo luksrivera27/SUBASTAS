@@ -8,7 +8,7 @@ export default function Footer() {
 
             {/* <!-- Copyright --> */}
             <div class="footer-copyright text-center py-3">© 2021 Copyright:
-                <a href={""} class="text-decoration-none"> Vendido.com</a>
+                <a href={"/"} class="text-decoration-none"> Vendido.com</a>
             </div>
             </footer>
         </div>

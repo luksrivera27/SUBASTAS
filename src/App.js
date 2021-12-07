@@ -25,18 +25,24 @@ import Reportesex from "./pages/Reportesex";
 import ReportesAdmi from "./pages/ReportesAdmi";
 import ConfigurarsubastasAdmi from "./pages/Configurarsubastasadmi";
 import Configurarsubastasin from "./pages/Configurarsubastas";
-import Reporte from "./pages/Reporte";
 
 
-function App() {
+
+    
+
+
+
+function App(props) {
+     
   return (
+    <div>
     <Router>
-      <div>
+      
         <Routes>
             <Route path="/" element={<Home/>} />
         </Routes>
         <Routes>
-            <Route path="/fornUserEx" element={<FrontPageUserEx />} />
+            <Route path="/fornUserEx" element={<FrontPageUserEx email={props.email} password={props.password} />} />
         </Routes>
         <Routes>
             <Route path="/fornUserIn" element={<FrontPadeUserI />} />
@@ -111,21 +117,9 @@ function App() {
         <Routes>
             <Route path="/perfiladmi" element={<Perfiladmi/>} />
         </Routes>
-        <Routes>
-            <Route path="/reporte" element={<Reporte/>} />
-        </Routes>
-        <Routes>
-            <Route path="/ReportesAdmi" element={<ReportesAdmi/>} />
-        </Routes>
-        <Routes>
-            <Route path="/Reportesex" element={<Reportesex/>} />
-        </Routes>
-
-        
-      </div>
-
-      
     </Router>
+
+    </div>
   );
 }
 

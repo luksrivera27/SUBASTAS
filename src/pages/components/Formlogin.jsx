@@ -1,54 +1,45 @@
 import React from 'react'
 import Logo from "./logo.png"
-/* import {Form} from 'react-bootstrap'
-import {Button} from 'react-bootstrap' */
 import './master.css'
-//import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-//import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {Component} from 'react'
 
-export default function Formlogin() {
-    return (
-    <div class="bodyformularios">   
-     <div class="login-box">
-         <img src={Logo} className="avatar" alt="Logo" /> 
 
-{/*         <Form>
-            <Form.Group className="input" controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Correo electronico" />
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+class Formlogin extends React.Component {
+    constructor(props) {
+        super(props);
+        this.email=React.createRef();
+        this.password=React.createRef();
+    }
+    clickRefs(evento){
+        evento.preventDefault();
+        console.log(this.email.current.value);
+        console.log(this.password.current.value);
+    }
+    clickEventos(evento){
+        evento.preventDefault();
+        let email=evento.target[0].value;
+        let password=evento.target[1].value;
+        if (email==1){
             
-                <Form.Control type="password" placeholder="Contraseña" />
+        }
+    }
+  render(){
+    return (
+    <div className="bodyformularios">   
+     <div className="login-box">
+         <img src={Logo} className="avatar" alt="Logo" /> 
+        <form onSubmit={this.clickEventos} >
+        <input type="email" id="email"  ref={this.email} onChange={(e)=>{const email = e.target}} placeholder="CORREO ELECTRÓNICO"/>
+               
+        <input type="password"  id="password" placeholder="CONTRASEÑA"  ref={this.password}/>
+        <input type="submit"  id="loginboton"value="INICIAR SESIÓN"/>
 
-            </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-
-            <Form.Check type="checkbox" label="Recordar" />
-                <a className="ancla" href={""}>¿olvidaste tu contraseña?</a> 
-            </Form.Group>
-        
-        <Button variant="primary" type="submit">
-            Iniciar Sesion
-        </Button>
-        </Form>  */}
-
-
-        <form>
-        <input type="email" placeholder="CORREO ELECTRÓNICO"/>
-        
-
-        
-        <input type="password" placeholder="CONTRASEÑA"/>
-        <input type="submit" value="INICIAR SESIÓN"/>
-
-        <div class="recuperar">
+        <div className="recuperar">
         <a href={"/Recuperarcontrasena"}>¿Olvidaste la contraseña?</a>
 
         <hr/>
 
-        <a style={{color:'darkgrey'}}>Si no tienes una cuenta, </a> <a href={"/Registro"}><em style={{fontFamily:'Arapey'}}>regístrate</em></a> 
+        <a href={"#"}style={{color:'darkgrey'}}>Si no tienes una cuenta, </a> <a href={"/Registro"}><em style={{fontFamily:'Arapey'}}>regístrate</em></a> 
         </div>
         
         </form>
@@ -56,4 +47,6 @@ export default function Formlogin() {
     </div>  
     </div>
     )
+  }
 }
+export default Formlogin;

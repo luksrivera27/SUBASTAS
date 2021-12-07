@@ -6,7 +6,8 @@ import SectionEx from './components/SectionEx';
 
 
 
-const FrontPageUserEx =() =>{
+const FrontPageUserEx =(props) =>{
+    
     return (
         <div>
             <Headerfontpageuser />

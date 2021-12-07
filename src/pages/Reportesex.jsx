@@ -1,9 +1,9 @@
 import React from "react";
-import FormreporteUser from './components/FormReporteUser';
+
 const Reportesex = () => {
   return (
     <div>
-      <FormreporteUser />
+      <h1>Este es Reportesex</h1>
     </div>
   );
 }
