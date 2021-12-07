@@ -24,11 +24,11 @@ class Login extends React.Component {
         return window.location.assign("/frontadmi");
       }  
       else{
-        if(email=="usuarin@hotmail"){
+        if(email=="usuarin@hotmail.com"){
           return window.location.assign("/fornUserIn");
         }
         else{
-          if (email=="usuarex@hotmail"){
+          if (email=="usuarex@hotmail.com"){
             return window.location.assign("/fornUserEx");
           }
           else{
