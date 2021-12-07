@@ -10,7 +10,7 @@ export default function NavUserIn() {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href={"/HiSubastas"}>Historial de subastas</a></li>
-                            <li><a class="dropdown-item" href={"/Reportesex"}>Generar reporte</a></li>
+                            <li><a class="dropdown-item" href={"/ReportesIn"}>Generar reporte</a></li>
                         </ul>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

@@ -1,9 +1,13 @@
 import React from "react";
-
+import FormReporteAdmin from './components/FormReporteAdmin';
+import Headerfontpageuser from "./components/Headerfontpageuser";
+import NavRepAdmi from "./components/NavRepAdmi";
 const ReportesAdmi = () => {
   return (
     <div>
-      <h1>Este es ReportesAdmi</h1>
+      <Headerfontpageuser />
+      <NavRepAdmi />
+      <FormReporteAdmin />
     </div>
   );
 }

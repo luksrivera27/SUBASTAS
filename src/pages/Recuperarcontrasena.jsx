@@ -1,9 +1,9 @@
 import React from "react";
-import Formcambiopassword from './components/Formcambio_password';
+import Formcambio_password from './components/Formcambio_password';
 const Recuperarcontrasena = () => {
   return (
     <div>
-     <Formcambiopassword/>
+     <Formcambio_password/>
     </div>
   );
 }

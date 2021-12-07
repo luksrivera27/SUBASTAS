@@ -11,6 +11,7 @@ const Home = () => {
       <SectionIndex />
       <Footer />
     </div>
+    
   );
 }
 

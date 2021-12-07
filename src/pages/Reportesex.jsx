@@ -1,11 +1,16 @@
 import React from "react";
+import FormreporteUser from './components/FormReporteUser';
+import Headerfontpageuser from "./components/Headerfontpageuser";
+import NavRepIn from "./components/NavRepIn";
 
-const Reportesex = () => {
+const ReportesIn = () => {
   return (
     <div>
-      <h1>Este es Reportesex</h1>
+      <Headerfontpageuser />
+      <NavRepIn />
+      <FormreporteUser />
     </div>
   );
 }
 
-export default Reportesex;
+export default ReportesIn;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TablahiSubastaAdmi() {
+export default function TablaSubastaex() {
     return (
         <div>
             <table class="table table-hover">
@@ -26,7 +26,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor">$300.000</td>
                     <td class ="Estadosubasta">Cerrada</td>        
                     
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
         
                     </tr>
                     <tr>
@@ -38,7 +38,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor">$100.000</td>
                     <td class ="Estado subasta">Cerrada</td>
                       
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
         
                    </tr>
                     <tr>
@@ -50,7 +50,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor puja">$580.000</td>
                     <td class ="Estado subasta">Ganada</td>
                       
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
                     </tr>
                     <tr>
                     <th scope="row">4</th>
@@ -61,7 +61,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor puja">$900.000</td>
                     <td class ="Estado subasta">Cerrada</td>
                       
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
                     </tr>
                     <tr>
                     <th scope="row">5</th>
@@ -72,7 +72,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor puja">$250.000</td>
                     <td class ="Estado subasta">En curso</td>
                       
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
                     </tr>
                     <tr>
                     <th scope="row">6</th>
@@ -83,7 +83,7 @@ export default function TablahiSubastaAdmi() {
                     <td class ="Valor puja">$180.000</td>
                     <td class ="Estado subasta">En curso</td>
                       
-                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/VisualizaciondesubastaAdmi"}>Ver</a></td>
+                    <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/frontadmi"}>Ver</a></td>
                                         </tr>
     
         

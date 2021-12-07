@@ -106,7 +106,7 @@
   text-align: center;
   font-family: 'Montserrat';
   font-weight: Medium;
-  font-size: 16x;
+  font-size: 16px;
 }
 
 .login-box em {
@@ -120,7 +120,7 @@
   color:rgb(0, 187, 255);
 }
 
-hr{
+.lineH{
   width: 75%;
   background-color: #fff;
   border-color: #fff;

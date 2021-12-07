@@ -87,7 +87,6 @@ export default function TablaUserAdmi() {
                     <td class ="fechacierre">Usuario externo</td>
                     <td class="Versubasta"><a type="button" class="btn btn-primary " href ={"/Perfil"}>Ver</a></td>
                     <td class="Eliminarsubasta"><button type="button" class="btn btn-primary ">Eliminar</button></td>
-                    1
                     </tr>
     
         

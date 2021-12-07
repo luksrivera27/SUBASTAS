@@ -2,14 +2,15 @@ import React from "react";
 import Footer from "./components/Footer";
 import Headerfontpageuser from "./components/Headerfontpageuser";
 import NavHiSubastaIn from "./components/NavHiSubasta";
-import TablaSubasta from "./components/TablaSubasta";
+import TablaSubastaex from "./components/TablaHistorialEx";
+
 
 const HiSubastas=() =>{
   return (
     <div> 
       <Headerfontpageuser />
       <NavHiSubastaIn />
-      <TablaSubasta />
+      <TablaSubastaex />
       <Footer />
     </div>
   );

@@ -15,7 +15,7 @@ export default function NavHiSubastaAdmi() {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse d-flex justify-content-end text-end" id="navbarNavDropdown">
                         <a class="nav navbar-brand negrita " href={"/frontadmi"}>Inicio</a>
                         <a class="nav navbar-brand negrita " href={"/Perfiladmi"}>Perfil</a>
                         <input type="submit" class="btn btn-outline nav navbar-brand negrita align-items-end" href={""} value="Cerrar sesión" />
