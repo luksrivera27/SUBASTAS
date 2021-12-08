@@ -18,7 +18,7 @@ export default function FormReporteAdmin() {
 
         
         <input type="date" placeholder="fecha inicio"/>  
-        <a href={"/ResuRepUserAdmi"}><input type="button" value="Ver Reporte"/></a>
+        <a href={"/ResuReportAdmi"}><input type="button" value="Ver Reporte"/></a>
         
         </form>
 

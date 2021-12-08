@@ -4,7 +4,7 @@ import './styleindex.css'
 export default function SectionAdmi() {
     return (
 
-        <div className="Padre container col-12 mx-5 mb-0">
+        <div className="Padre container col-12 mx-5 ">
             <div className="row">
                 <div class="col">
                     <div class="card mb-5">

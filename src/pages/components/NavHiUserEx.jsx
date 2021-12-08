@@ -12,7 +12,7 @@ export default function NavHiExterno() {
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse d-flex justify-content-end text-end" id="navbarNavDropdown">
-                        <a class="nav navbar-brand negrita " href={"/frontUserEX"}>Inicio</a>
+                        <a class="nav navbar-brand negrita " href={"/fornUserEx"}>Inicio</a>
                         <a class="nav navbar-brand negrita " href={"/perfil"}>Perfil</a>
                         <input type="submit" class="btn btn-outline nav navbar-brand negrita align-items-end" href={""} value="Descargar" />
                         <input type="submit" class="btn btn-outline nav navbar-brand negrita align-items-end" href={""} value="Cerrar sesión" />
