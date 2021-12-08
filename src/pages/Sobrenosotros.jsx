@@ -7,7 +7,7 @@ const Sobrenosotros = () => {
     <div>
     <Header/>
     <Navsobrenosotros/>
-    <div class="caja ">
+    <div class="caja1 ">
         <div class="subcaja">
             
         <h2 class=" title Vendido" >Vendido</h2>

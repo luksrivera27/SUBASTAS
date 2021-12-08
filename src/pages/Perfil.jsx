@@ -1,9 +1,16 @@
 import React from "react";
+import HeaderPerfil from "./components/HeaderPujar"
+import NavPerfil from "./components/NavPujar"
+import SectionPerfilotros from "./components/SectionPerfilotros"
+import Footer from "./components/Footer"
 
 const Perfil = () => {
   return (
     <div>
-      <h1>Este es Configurar Perfil externo</h1>
+      <HeaderPerfil />
+    <NavPerfil />
+    <SectionPerfilotros />
+    <Footer />
     </div>
   );
 }

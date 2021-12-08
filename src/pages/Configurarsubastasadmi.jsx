@@ -1,9 +1,17 @@
 import React from "react";
+import HeaderPerfil from "./components/HeaderPujar"
+import NavUserAmi from "./components/NavHiUserAdmi"
+import SectionConfigPujar from "./components/SectionConfigPujar"
+import Footer from "./components/Footer"
+
 
 const ConfigurarsubastasAdmi = () => {
   return (
     <div>
-      <h1>Este es Configurar subastasadmi</h1>
+    <HeaderPerfil />
+    <NavUserAmi  />
+    <SectionConfigPujar />
+    <Footer />
     </div>
   );
 }

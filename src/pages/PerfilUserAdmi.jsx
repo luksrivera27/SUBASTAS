@@ -1,9 +1,16 @@
 import React from "react";
+import HeaderPerfil from "./components/HeaderPujar"
+import NavPerfil from "./components/NavPujar"
+import SectionPerfil from "./components/SectionPerfil"
+import Footer from "./components/Footer"
 
 const Perfiladmi = () => {
   return (
     <div>
-      <h1>Este es Configurar PerfilAdmi</h1>
+    <HeaderPerfil />
+    <NavPerfil />
+    <SectionPerfil />
+    <Footer />
     </div>
   );
 }

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+}
+/* HEADER */
+.header{
+    background: blue;
+}
+.logo{
+    margin-left: 5px;
+}
+.btnR{
+    margin-right: 10px;
+}
+.Vendido{
+    color: #fff; font-style: italic; font-weight: 300; font-family: 'Dancing Script', cursive; 
+}
+
+.usuario {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+/* SECTION */
+.form-file {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: gray;
+}
+
+.form-file_action {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.texto {
+    margin: auto;
+    background: #fff;
+    position: absolute;
+    border: 300px;
+    text-align: center;
+    /* width: 100%;
+    height: 100%; */
+    font-weight: 900;
+    font-size: medium;
+}
+.add {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.card{
+    width: 18rem;
+}
+
+.negrita{
+    font-weight: 700;
+}
+.fechaI{
+    text-align: center;
+
+}
+.fechaF{
+    text-align: center;
+}
+
+.card-body{
+    background: rgb(238, 238, 238);
+}
+
+.pict {
+    width: 200px;
+}
+
+.vl {
+    border-left: 3px solid rgb(178, 197, 200);
+    height: 680px;
+    width: 10px;
+    position: relative;
+    left: 1%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.caja {
+    width: 600px;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    opacity: .5;
+}
+
+.carousel-control-prev {
+    left: 3%;
+}
+
+.carousel-control-next {
+    right: 3%;
+}
+
+.describe {
+    font-weight: 900;
+}
+
+.inf {
+    width: 570px;
+    text-align: justify
+}
+
+.padrastro {
+    padding: 20px;
+    width: 100%;
+    background: rgb(238, 238, 238);
+}
+
+.tabla {
+    width: 100%;
+    text-align: justify;
+}
+
+.fila1, .fila2, .fila4, .fila6 {
+    font-weight: 900;
+}
+
+.btnp {
+    width: 150px;
+    font-weight: 900;
+    box-shadow: 2px 2px 5px 0 black;
+    cursor: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}

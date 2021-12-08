@@ -12,13 +12,13 @@ const Contactanos = () => {
       <Header/>
       <Navegaciongeneral/>
       
-      <div class="caja ">
+      <div class="caja1 ">
         <div class="subcaja">
             
-            <h1 class="title">Contactanos</h1>
+            <h1 class="title1">Contactanos</h1>
             
-            <img class="logo" src={logowhatsapp}/> <h3 class="texto"> +57 3057766397</h3>
-            <img class="logo" src={logoemail}/> <h3 class="texto"> subasVendido@gmail.com</h3>
+            <img class="logo3" src={logowhatsapp}/> <h3 class="texto2"> +57 3057766397</h3>
+            <img class="logo3" src={logoemail}/> <h3 class="texto2"> subasVendido@gmail.com</h3>
             
       </div>
       </div>

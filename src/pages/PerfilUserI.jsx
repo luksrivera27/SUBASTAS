@@ -1,11 +1,18 @@
 import React from "react";
+import HeaderPerfil from "./components/HeaderPujar"
+import NavPerfil from "./components/NavVisUsua"
+import SectionPerfilotros from "./components/SectionPerfilotros"
+import Footer from "./components/Footer"
 
-const PerfilInterno = () => {
+const Perfil = () => {
   return (
     <div>
-      <h1>Este es Configurar Perfil Interno</h1>
+      <HeaderPerfil />
+    <NavPerfil />
+    <SectionPerfilotros />
+    <Footer />
     </div>
   );
 }
 
-export default PerfilInterno;
+export default Perfil;
