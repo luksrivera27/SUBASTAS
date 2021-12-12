@@ -1,14 +1,15 @@
 import React from "react";
 import HeaderPerfil from "./components/HeaderPujar"
-import NavPerfil from "./components/NavPujar"
+
 import SectionPerfil from "./components/SectionPerfil"
 import Footer from "./components/Footer"
+import NavUserAmi from "./components/NavUserAmi";
 
 const Perfiladmi = () => {
   return (
     <div>
     <HeaderPerfil />
-    <NavPerfil />
+    <NavUserAmi />
     <SectionPerfil />
     <Footer />
     </div>

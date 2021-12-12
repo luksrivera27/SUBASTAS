@@ -4,10 +4,10 @@ import './styleindex.css'
 export default function SectionIndex() {
     return (
 
-        <div className="Padre container col-12 mx-5 mb-0">
+        <div className="Padre container col-12 mx-7 mb-0">
             <div className="row">
-                <div class="col">
-                    <div class="card mb-5">
+                <div class="col ">
+                    <div class="card mb-5 ">
                         <img src={Fosil} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="negrita card-title">Nombre del fosil</h5>

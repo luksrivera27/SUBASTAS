@@ -1,0 +1,36 @@
+###
+POST http://localhost:9000/api/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Ronald Muñoz",
+    "correo": "AdminM@hotmail.com",
+    "identification": "6566494",
+    "fechaidExpedicion": "22/12/2017",
+    "fechaNacimiento": "07/12/1999",
+    "password": "123456789",
+    "vpassword": "123456789"
+}
+
+###
+GET http://localhost:9000/api/register HTTP/1.1
+
+###
+GET http://localhost:9000/api/register/61b5072e5c159784c5013e85 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/register/61b5072e5c159784c5013e85 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Luis Lopez",
+    "correo": "AdminR@hotmail.com",
+    "identification": "795665662",
+    "fechaidExpedicion": "22/12/2017",
+    "fechaNacimiento": "07/12/1999",
+    "password": "123456789",
+    "vpassword": "123456789"
+}
+
+###
+DELETE  http://localhost:9000/api/register/61b5072e5c159784c5013e85 HTTP/1.1
