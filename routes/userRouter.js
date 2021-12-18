@@ -4,7 +4,7 @@ const userCtrl = require('../controllers/userCtrl')
 //Todas las rutas y sus respectivos métodos.
 router.post('/register', userCtrl.register)
 
-router.post('/login', userCtrl.login)
+router.post('/Login', userCtrl.login)
 
 router.get('/infor', auth, userCtrl.getUserInfor)
 

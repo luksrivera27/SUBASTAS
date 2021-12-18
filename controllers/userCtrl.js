@@ -6,9 +6,9 @@ const userCtrl = {
   //Se encarga de evaluar y subir el registro al servidor
   register: async (req, res) => {
     try {
-      const { name, email, password } = req.body;
+      const {  name,tipo_id,id,fecha_nacimiento, fecha_exp_documeto, email, password  } = req.body;
 
-      if (!name || !email || !password)
+      if (!name || !email || !password || !tipo_id|| !id || !fecha_nacimiento|| !fecha_exp_documeto)
         return res
           .status(400)
           .json({ msg: "Por favor rellena todos los campos." });
@@ -27,7 +27,11 @@ const userCtrl = {
       const passwordHash = await bcrypt.hash(password, 12);
 
       const newUser = new Users({
-        name,
+       name,
+        tipo_id,
+        id,
+        fecha_nacimiento, 
+        fecha_exp_documeto,
         email,
         password: passwordHash,
       });
